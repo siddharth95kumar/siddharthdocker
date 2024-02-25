@@ -1,0 +1,5 @@
+To create image
+docker build -f Dockerfile1_entry.dockerfile -t my_apache_imagename .
+To run Container and expose 8080
+docker run -d -p 8080:80 --name asishapachecon my-apache
+Test by http://localhost:8080
